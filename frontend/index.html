@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>苟活 · 问题回访与会话记忆</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip-link" href="#main-content">跳到主要内容</a>
+<main id="main-content" tabindex="-1">
+  <header>
+    <div><h1>苟活 🌱</h1><p class="subtitle">记得你问过什么，也关心后来怎么样。</p></div>
+    <div class="row"><span id="account"></span><button id="logout" hidden>退出登录</button></div>
+  </header>
+  <div class="row environment"><span class="pill">Python 独立版</span><small>体验账户为虚构数据；咨询内容来自固定指南快照。</small></div>
+  <div id="status" role="status" aria-live="polite" aria-atomic="true"></div>
+  <noscript><p class="notice">请开启浏览器 JavaScript 后使用页面。</p></noscript>
+  <section id="login">
+    <h2>登录</h2>
+    <form id="loginform">
+      <label for="username">账号</label><input id="username" autocomplete="username" placeholder="alice 或 bob" required maxlength="100">
+      <label for="password">密码</label><input type="password" id="password" autocomplete="current-password" required>
+      <div class="row"><button class="primary" id="login-submit" type="submit">登录</button></div>
+    </form>
+  </section>
+  <div id="workspace" hidden>
+    <section aria-labelledby="home-title">
+      <div class="section-heading"><h2 id="home-title">上次的问题，后来怎么样了？</h2><button id="refresh">刷新回访</button></div>
+      <p class="hint">先跟进问题进展，你需要时再继续问指南。</p>
+      <div id="home"><p class="empty">还没有需要回访的问题，先聊一个困扰吧。</p></div>
+    </section>
+    <div class="grid">
+      <section aria-labelledby="chat-title">
+        <div class="section-heading"><h2 id="chat-title">说说你的困扰</h2><button id="newchat">开始新会话</button></div>
+        <p class="hint">本页保留当前会话的问答；刷新后不保留逐字聊天。开启记忆时，会保存会话摘要。</p>
+        <div id="chat" role="log" aria-label="当前会话" aria-live="polite" aria-relevant="additions"></div>
+        <form id="askform">
+          <label for="query">你想解决什么？</label>
+          <textarea id="query" placeholder="例如：工作时老被手机通知打断，怎么改善？" rows="4" maxlength="2000" aria-describedby="query-hint" required></textarea>
+          <div class="row" id="linked-row" hidden><span id="linked" class="pill"></span><button id="unlink" type="button">取消关联</button></div>
+          <div class="row composer-actions"><small id="query-hint">可以补充情况继续聊。Ctrl / ⌘ + Enter 提交，Enter 换行。</small><button class="primary" id="ask" type="submit">提问</button></div>
+        </form>
+      </section>
+      <section aria-labelledby="memory-title">
+        <h2 id="memory-title">长期会话记忆</h2>
+        <label class="row switch"><input id="enabled" type="checkbox">自动保存每轮会话摘要</label>
+        <p class="hint">模型记录你明确表达的状态、问题和咨询过的指南，无需每次手动保存。摘要可以纠正或删除；关闭后停止读写。</p>
+        <div id="memories"></div>
+        <form id="editor" hidden>
+          <h3 id="editor-title">纠正这条摘要</h3>
+          <label for="memory">会话摘要</label><textarea id="memory" required maxlength="800"></textarea>
+          <label for="problem">问题主题</label><input id="problem" maxlength="160">
+          <label for="user_state">用户状态</label><input id="user_state" maxlength="400">
+          <label for="problem_status">问题进展</label><select id="problem_status"><option value="unresolved">尚未解决</option><option value="resolved">已解决</option><option value="unknown">未说明</option></select>
+          <div class="row"><button class="primary" id="save" type="submit">保存纠正</button><button id="cancel" type="button">取消</button></div>
+        </form>
+        <div class="row"><button class="danger" id="clear">清空记忆</button><button id="reload-memories">刷新记忆</button></div>
+        <small>同一问题的更新会保留旧摘要，首页仅跟进最新且未解决的记录。变更记忆会重置当前会话上下文。</small>
+      </section>
+    </div>
+    <footer><small>指南：HowToLiveBetter · CC BY 4.0 · 2026-10-12 固定快照，687 条。首页只回访问题，指南正文在你提问后查询。</small></footer>
+  </div>
+</main>
+<script src="api.js"></script>
+<script src="ui.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

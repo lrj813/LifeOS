@@ -1,0 +1,178 @@
+[
+  {
+    "text": "LifeOS / 03 知识问答与主动推荐 / 按流程分组 20261014",
+    "expanded": "true"
+  },
+  {
+    "text": "C00 流程总览 · 两条主线与两组分支",
+    "expanded": "false"
+  },
+  {
+    "text": "3.4 加载与异常恢复",
+    "expanded": "false"
+  },
+  {
+    "text": "3.3 信息不足与依据纠错",
+    "expanded": "false"
+  },
+  {
+    "text": "3.2 Radar 发现与继续了解",
+    "expanded": "false"
+  },
+  {
+    "text": "3.1 知识问答与溯源",
+    "expanded": "false"
+  },
+  {
+    "text": "02A 管对话；02B 管记忆；04 承接推荐反馈闭环",
+    "expanded": null
+  },
+  {
+    "text": "静态、分层可编辑；每页右侧为逐步交互说明",
+    "expanded": null
+  },
+  {
+    "text": "阅读顺序：总览 → 主动问答 → Radar 发现 → 信息不足与纠错 → 加载恢复",
+    "expanded": null
+  },
+  {
+    "text": "03 知识问答与主动推荐｜Web 低保真原型",
+    "expanded": null
+  },
+  {
+    "text": "LifeOS / 02B 个人记忆确认与管理 / 按流程分组 20261014",
+    "expanded": "false"
+  },
+  {
+    "text": "LifeOS / 02A 对话与信息理解 / 按流程分组 20261014",
+    "expanded": "true"
+  },
+  {
+    "text": "A00 流程总览 · 三组分开查看",
+    "expanded": "false"
+  },
+  {
+    "text": "2A.3 异常恢复与消息操作",
+    "expanded": "true"
+  },
+  {
+    "text": "A13 发送失败 · 保留待发送消息",
+    "expanded": "false"
+  },
+  {
+    "text": "A12 重新生成 · 保留上一版",
+    "expanded": "false"
+  },
+  {
+    "text": "A11 回复失败 · 原问题保留并重试",
+    "expanded": "false"
+  },
+  {
+    "text": "A10 用户停止 · 保留部分回复",
+    "expanded": "false"
+  },
+  {
+    "text": "2A.3 异常恢复与消息操作",
+    "expanded": null
+  },
+  {
+    "text": "2A.2 信息不足与修正",
+    "expanded": "true"
+  },
+  {
+    "text": "A09 识别有误 · 调整本次情境",
+    "expanded": "false"
+  },
+  {
+    "text": "A08 暂不补充 · 说明回答限制",
+    "expanded": "false"
+  },
+  {
+    "text": "A07 补充信息 · 更新本次情境",
+    "expanded": "false"
+  },
+  {
+    "text": "A06 关键条件缺失 · 一次必要追问",
+    "expanded": "false"
+  },
+  {
+    "text": "2A.2 信息不足与修正",
+    "expanded": null
+  },
+  {
+    "text": "2A.1 正常对话",
+    "expanded": "true"
+  },
+  {
+    "text": "A05 继续对话 · 沿用已知情境",
+    "expanded": "false"
+  },
+  {
+    "text": "A04 回复完成 · 消息操作",
+    "expanded": "false"
+  },
+  {
+    "text": "A03 回复生成中 · 可停止",
+    "expanded": "false"
+  },
+  {
+    "text": "A02 条件足够 · 展示识别情境",
+    "expanded": "false"
+  },
+  {
+    "text": "A01 消息已提交 · 正在理解",
+    "expanded": "false"
+  },
+  {
+    "text": "2A.1 正常对话",
+    "expanded": null
+  },
+  {
+    "text": "02B 承接长期记忆；03 承接知识回答与推荐内容",
+    "expanded": null
+  },
+  {
+    "text": "静态、分层可编辑；每页右侧为逐步交互说明",
+    "expanded": null
+  },
+  {
+    "text": "阅读顺序：总览 → 正常对话 → 信息不足与修正 → 异常恢复",
+    "expanded": null
+  },
+  {
+    "text": "02A 对话与信息理解｜Web 低保真原型",
+    "expanded": null
+  },
+  {
+    "text": "LifeOS / 01 进入与交互入口 / 按流程分组 20261014",
+    "expanded": "false"
+  },
+  {
+    "text": "RECONSTRUCT / LifeOS / 01 进入与交互入口 / v20261014",
+    "expanded": "false"
+  },
+  {
+    "text": "Frame 5",
+    "expanded": "false"
+  },
+  {
+    "text": "Frame 4",
+    "expanded": "false"
+  },
+  {
+    "text": "Frame 3",
+    "expanded": "false"
+  },
+  {
+    "text": "Frame 2",
+    "expanded": "false"
+  },
+  {
+    "text": "image 1",
+    "expanded": null
+  },
+  {
+    "text": "Frame 1",
+    "expanded": "false"
+  }
+]

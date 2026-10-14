@@ -1,0 +1,190 @@
+[
+  {
+    "text": "LifeOS / 03 知识问答与主动推荐 / 按流程分组 20261014",
+    "expanded": "false"
+  },
+  {
+    "text": "LifeOS / 02B 个人记忆确认与管理 / 按流程分组 20261014",
+    "expanded": "true"
+  },
+  {
+    "text": "B00 流程总览 · 四组独立查看",
+    "expanded": "false"
+  },
+  {
+    "text": "2B.4 设置与异常恢复",
+    "expanded": "true"
+  },
+  {
+    "text": "B15 更新失败 · 旧档案保留，新输入可重试",
+    "expanded": "false"
+  },
+  {
+    "text": "B14 首次保存失败 · 保留候选与选择",
+    "expanded": "false"
+  },
+  {
+    "text": "B13 记忆与隐私 · 分别控制保存与调用",
+    "expanded": "false"
+  },
+  {
+    "text": "2B.4 设置与异常恢复",
+    "expanded": null
+  },
+  {
+    "text": "2B.3 更新、冲突与删除",
+    "expanded": "true"
+  },
+  {
+    "text": "B12 删除成功 · 更新列表与分类数量",
+    "expanded": "false"
+  },
+  {
+    "text": "B11 删除记忆前 · 明确影响范围",
+    "expanded": "false"
+  },
+  {
+    "text": "B10 更新成功 · 档案与后续依据一致",
+    "expanded": "false"
+  },
+  {
+    "text": "B09 新旧信息矛盾 · 明确是否更新记忆",
+    "expanded": "false"
+  },
+  {
+    "text": "B08 编辑已保存事件 · 保存修改",
+    "expanded": "false"
+  },
+  {
+    "text": "2B.3 更新、冲突与删除",
+    "expanded": null
+  },
+  {
+    "text": "2B.2 查看与使用",
+    "expanded": "true"
+  },
+  {
+    "text": "B07 个人档案为空 · 仍可直接开始对话",
+    "expanded": "false"
+  },
+  {
+    "text": "B06 再次提问 · 显示使用了哪些记忆",
+    "expanded": "false"
+  },
+  {
+    "text": "B05 我的生活 · 分类查看已保存信息",
+    "expanded": "false"
+  },
+  {
+    "text": "2B.2 查看与使用",
+    "expanded": null
+  },
+  {
+    "text": "2B.1 确认与保存",
+    "expanded": "true"
+  },
+  {
+    "text": "B04 保存成功 · 可查看个人档案",
+    "expanded": "false"
+  },
+  {
+    "text": "B03 仅本次使用 · 不新增长期记忆",
+    "expanded": "false"
+  },
+  {
+    "text": "B02 核对信息 · 选择长期保存",
+    "expanded": "false"
+  },
+  {
+    "text": "B01 从对话承接 · 可选记忆保存入口",
+    "expanded": "false"
+  },
+  {
+    "text": "2B.1 确认与保存",
+    "expanded": null
+  },
+  {
+    "text": "02A 承接当前情境；03 / 04 承接推荐与反馈",
+    "expanded": null
+  },
+  {
+    "text": "静态、分层可编辑；每页右侧为逐步交互说明",
+    "expanded": null
+  },
+  {
+    "text": "阅读顺序：总览 → 确认保存 → 查看使用 → 更新删除 → 设置恢复",
+    "expanded": null
+  },
+  {
+    "text": "02B 个人记忆确认与管理｜Web 低保真原型",
+    "expanded": null
+  },
+  {
+    "text": "LifeOS / 02A 对话与信息理解 / 按流程分组 20261014",
+    "expanded": "true"
+  },
+  {
+    "text": "A00 流程总览 · 三组分开查看",
+    "expanded": "false"
+  },
+  {
+    "text": "2A.3 异常恢复与消息操作",
+    "expanded": "false"
+  },
+  {
+    "text": "2A.2 信息不足与修正",
+    "expanded": "false"
+  },
+  {
+    "text": "2A.1 正常对话",
+    "expanded": "false"
+  },
+  {
+    "text": "02B 承接长期记忆；03 承接知识回答与推荐内容",
+    "expanded": null
+  },
+  {
+    "text": "静态、分层可编辑；每页右侧为逐步交互说明",
+    "expanded": null
+  },
+  {
+    "text": "阅读顺序：总览 → 正常对话 → 信息不足与修正 → 异常恢复",
+    "expanded": null
+  },
+  {
+    "text": "02A 对话与信息理解｜Web 低保真原型",
+    "expanded": null
+  },
+  {
+    "text": "LifeOS / 01 进入与交互入口 / 按流程分组 20261014",
+    "expanded": "false"
+  },
+  {
+    "text": "RECONSTRUCT / LifeOS / 01 进入与交互入口 / v20261014",
+    "expanded": "false"
+  },
+  {
+    "text": "Frame 5",
+    "expanded": "false"
+  },
+  {
+    "text": "Frame 4",
+    "expanded": "false"
+  },
+  {
+    "text": "Frame 3",
+    "expanded": "false"
+  },
+  {
+    "text": "Frame 2",
+    "expanded": "false"
+  },
+  {
+    "text": "image 1",
+    "expanded": null
+  },
+  {
+    "text": "Frame 1",
+    "expanded": "false"
+  }
+]

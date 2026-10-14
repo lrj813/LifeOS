@@ -1,0 +1,534 @@
+[
+  {
+    "id": "S00",
+    "name": "S00 总览 · 状态判断与模块交接",
+    "url": "https://www.figma.com/design/NajM4RRtO3M9U0cUfSmvQc/Untitled?node-id=3-26",
+    "image": "figma/S00.png",
+    "node_id": "3:26"
+  },
+  {
+    "id": "S01",
+    "name": "S01 首次进入 · 欢迎引导",
+    "url": "https://www.figma.com/design/NajM4RRtO3M9U0cUfSmvQc/Untitled?node-id=3-116",
+    "image": "figma/S01.png",
+    "node_id": "3:116"
+  },
+  {
+    "id": "S02",
+    "name": "S02 首次进入 · 场景引导",
+    "url": "https://www.figma.com/design/NajM4RRtO3M9U0cUfSmvQc/Untitled?node-id=3-177",
+    "image": "figma/S02.png",
+    "node_id": "3:177"
+  },
+  {
+    "id": "S03",
+    "name": "S03 首次使用 · 无个人信息 / 无话题",
+    "url": "https://www.figma.com/design/NajM4RRtO3M9U0cUfSmvQc/Untitled?node-id=3-249",
+    "image": "figma/S03.png",
+    "node_id": "3:249"
+  },
+  {
+    "id": "S04",
+    "name": "S04 再次进入 · 个性化首页",
+    "url": "https://www.figma.com/design/NajM4RRtO3M9U0cUfSmvQc/Untitled?node-id=3-337",
+    "image": "figma/S04.png",
+    "node_id": "3:337"
+  },
+  {
+    "id": "S05",
+    "name": "S05 再次进入 · 无推荐 / 有最近话题",
+    "url": "https://www.figma.com/design/NajM4RRtO3M9U0cUfSmvQc/Untitled?node-id=3-450",
+    "image": "figma/S05.png",
+    "node_id": "3:450"
+  },
+  {
+    "id": "S06",
+    "name": "S06 再次进入 · 无信息 / 无推荐 / 无历史",
+    "url": "https://www.figma.com/design/NajM4RRtO3M9U0cUfSmvQc/Untitled?node-id=3-540",
+    "image": "figma/S06.png",
+    "node_id": "3:540"
+  },
+  {
+    "id": "S07",
+    "name": "S07 最近关注话题 · 查看与继续",
+    "url": "https://www.figma.com/design/NajM4RRtO3M9U0cUfSmvQc/Untitled?node-id=3-621",
+    "image": "figma/S07.png",
+    "node_id": "3:621"
+  },
+  {
+    "id": "S08",
+    "name": "S08 主动输入 · 编辑与发送",
+    "url": "https://www.figma.com/design/NajM4RRtO3M9U0cUfSmvQc/Untitled?node-id=3-703",
+    "image": "figma/S08.png",
+    "node_id": "3:703"
+  },
+  {
+    "id": "S09",
+    "name": "S09 快捷场景 · 预填后确认",
+    "url": "https://www.figma.com/design/NajM4RRtO3M9U0cUfSmvQc/Untitled?node-id=3-788",
+    "image": "figma/S09.png",
+    "node_id": "3:788"
+  },
+  {
+    "id": "S10",
+    "name": "S10 Agent 对话 · 新问题已带入",
+    "url": "https://www.figma.com/design/NajM4RRtO3M9U0cUfSmvQc/Untitled?node-id=3-888",
+    "image": "figma/S10.png",
+    "node_id": "3:888"
+  },
+  {
+    "id": "S11",
+    "name": "S11 Agent 对话 · 恢复最近话题",
+    "url": "https://www.figma.com/design/NajM4RRtO3M9U0cUfSmvQc/Untitled?node-id=3-961",
+    "image": "figma/S11.png",
+    "node_id": "3:961"
+  },
+  {
+    "id": "S12",
+    "name": "S12 Radar 推荐 · 模块交接",
+    "url": "https://www.figma.com/design/NajM4RRtO3M9U0cUfSmvQc/Untitled?node-id=3-1034",
+    "image": "figma/S12.png",
+    "node_id": "3:1034"
+  },
+  {
+    "id": "A00",
+    "name": "A00 流程总览 · 三组分开查看",
+    "url": "https://www.figma.com/design/NajM4RRtO3M9U0cUfSmvQc/Untitled?node-id=9-14",
+    "image": "figma/A00.png",
+    "node_id": "9:14"
+  },
+  {
+    "id": "A01",
+    "name": "A01 消息已提交 · 正在理解",
+    "url": "https://www.figma.com/design/NajM4RRtO3M9U0cUfSmvQc/Untitled?node-id=9-95",
+    "image": "figma/A01.png",
+    "node_id": "9:95"
+  },
+  {
+    "id": "A02",
+    "name": "A02 条件足够 · 展示识别情境",
+    "url": "https://www.figma.com/design/NajM4RRtO3M9U0cUfSmvQc/Untitled?node-id=9-168",
+    "image": "figma/A02.png",
+    "node_id": "9:168"
+  },
+  {
+    "id": "A03",
+    "name": "A03 回复生成中 · 可停止",
+    "url": "https://www.figma.com/design/NajM4RRtO3M9U0cUfSmvQc/Untitled?node-id=9-254",
+    "image": "figma/A03.png",
+    "node_id": "9:254"
+  },
+  {
+    "id": "A04",
+    "name": "A04 回复完成 · 消息操作",
+    "url": "https://www.figma.com/design/NajM4RRtO3M9U0cUfSmvQc/Untitled?node-id=9-345",
+    "image": "figma/A04.png",
+    "node_id": "9:345"
+  },
+  {
+    "id": "A05",
+    "name": "A05 继续对话 · 沿用已知情境",
+    "url": "https://www.figma.com/design/NajM4RRtO3M9U0cUfSmvQc/Untitled?node-id=9-442",
+    "image": "figma/A05.png",
+    "node_id": "9:442"
+  },
+  {
+    "id": "A06",
+    "name": "A06 关键条件缺失 · 一次必要追问",
+    "url": "https://www.figma.com/design/NajM4RRtO3M9U0cUfSmvQc/Untitled?node-id=9-531",
+    "image": "figma/A06.png",
+    "node_id": "9:531"
+  },
+  {
+    "id": "A07",
+    "name": "A07 补充信息 · 更新本次情境",
+    "url": "https://www.figma.com/design/NajM4RRtO3M9U0cUfSmvQc/Untitled?node-id=9-610",
+    "image": "figma/A07.png",
+    "node_id": "9:610"
+  },
+  {
+    "id": "A08",
+    "name": "A08 暂不补充 · 说明回答限制",
+    "url": "https://www.figma.com/design/NajM4RRtO3M9U0cUfSmvQc/Untitled?node-id=9-699",
+    "image": "figma/A08.png",
+    "node_id": "9:699"
+  },
+  {
+    "id": "A09",
+    "name": "A09 识别有误 · 调整本次情境",
+    "url": "https://www.figma.com/design/NajM4RRtO3M9U0cUfSmvQc/Untitled?node-id=9-780",
+    "image": "figma/A09.png",
+    "node_id": "9:780"
+  },
+  {
+    "id": "A10",
+    "name": "A10 用户停止 · 保留部分回复",
+    "url": "https://www.figma.com/design/NajM4RRtO3M9U0cUfSmvQc/Untitled?node-id=9-883",
+    "image": "figma/A10.png",
+    "node_id": "9:883"
+  },
+  {
+    "id": "A11",
+    "name": "A11 回复失败 · 原问题保留并重试",
+    "url": "https://www.figma.com/design/NajM4RRtO3M9U0cUfSmvQc/Untitled?node-id=9-957",
+    "image": "figma/A11.png",
+    "node_id": "9:957"
+  },
+  {
+    "id": "A12",
+    "name": "A12 重新生成 · 保留上一版",
+    "url": "https://www.figma.com/design/NajM4RRtO3M9U0cUfSmvQc/Untitled?node-id=9-1032",
+    "image": "figma/A12.png",
+    "node_id": "9:1032"
+  },
+  {
+    "id": "A13",
+    "name": "A13 发送失败 · 保留待发送消息",
+    "url": "https://www.figma.com/design/NajM4RRtO3M9U0cUfSmvQc/Untitled?node-id=9-1111",
+    "image": "figma/A13.png",
+    "node_id": "9:1111"
+  },
+  {
+    "id": "B00",
+    "name": "B00 流程总览 · 四组独立查看",
+    "url": "https://www.figma.com/design/NajM4RRtO3M9U0cUfSmvQc/Untitled?node-id=25-1197",
+    "image": "figma/B00.png",
+    "node_id": "25:1197"
+  },
+  {
+    "id": "B01",
+    "name": "B01 从对话承接 · 可选记忆保存入口",
+    "url": "https://www.figma.com/design/NajM4RRtO3M9U0cUfSmvQc/Untitled?node-id=25-1282",
+    "image": "figma/B01.png",
+    "node_id": "25:1282"
+  },
+  {
+    "id": "B02",
+    "name": "B02 核对信息 · 选择长期保存",
+    "url": "https://www.figma.com/design/NajM4RRtO3M9U0cUfSmvQc/Untitled?node-id=25-1367",
+    "image": "figma/B02.png",
+    "node_id": "25:1367"
+  },
+  {
+    "id": "B03",
+    "name": "B03 仅本次使用 · 不新增长期记忆",
+    "url": "https://www.figma.com/design/NajM4RRtO3M9U0cUfSmvQc/Untitled?node-id=25-1484",
+    "image": "figma/B03.png",
+    "node_id": "25:1484"
+  },
+  {
+    "id": "B04",
+    "name": "B04 保存成功 · 可查看个人档案",
+    "url": "https://www.figma.com/design/NajM4RRtO3M9U0cUfSmvQc/Untitled?node-id=25-1567",
+    "image": "figma/B04.png",
+    "node_id": "25:1567"
+  },
+  {
+    "id": "B05",
+    "name": "B05 我的生活 · 分类查看已保存信息",
+    "url": "https://www.figma.com/design/NajM4RRtO3M9U0cUfSmvQc/Untitled?node-id=25-1652",
+    "image": "figma/B05.png",
+    "node_id": "25:1652"
+  },
+  {
+    "id": "B06",
+    "name": "B06 再次提问 · 显示使用了哪些记忆",
+    "url": "https://www.figma.com/design/NajM4RRtO3M9U0cUfSmvQc/Untitled?node-id=25-1739",
+    "image": "figma/B06.png",
+    "node_id": "25:1739"
+  },
+  {
+    "id": "B07",
+    "name": "B07 个人档案为空 · 仍可直接开始对话",
+    "url": "https://www.figma.com/design/NajM4RRtO3M9U0cUfSmvQc/Untitled?node-id=25-1822",
+    "image": "figma/B07.png",
+    "node_id": "25:1822"
+  },
+  {
+    "id": "B08",
+    "name": "B08 编辑已保存事件 · 保存修改",
+    "url": "https://www.figma.com/design/NajM4RRtO3M9U0cUfSmvQc/Untitled?node-id=25-1904",
+    "image": "figma/B08.png",
+    "node_id": "25:1904"
+  },
+  {
+    "id": "B09",
+    "name": "B09 新旧信息矛盾 · 明确是否更新记忆",
+    "url": "https://www.figma.com/design/NajM4RRtO3M9U0cUfSmvQc/Untitled?node-id=25-2014",
+    "image": "figma/B09.png",
+    "node_id": "25:2014"
+  },
+  {
+    "id": "B10",
+    "name": "B10 更新成功 · 档案与后续依据一致",
+    "url": "https://www.figma.com/design/NajM4RRtO3M9U0cUfSmvQc/Untitled?node-id=25-2108",
+    "image": "figma/B10.png",
+    "node_id": "25:2108"
+  },
+  {
+    "id": "B11",
+    "name": "B11 删除记忆前 · 明确影响范围",
+    "url": "https://www.figma.com/design/NajM4RRtO3M9U0cUfSmvQc/Untitled?node-id=25-2197",
+    "image": "figma/B11.png",
+    "node_id": "25:2197"
+  },
+  {
+    "id": "B12",
+    "name": "B12 删除成功 · 更新列表与分类数量",
+    "url": "https://www.figma.com/design/NajM4RRtO3M9U0cUfSmvQc/Untitled?node-id=25-2299",
+    "image": "figma/B12.png",
+    "node_id": "25:2299"
+  },
+  {
+    "id": "B13",
+    "name": "B13 记忆与隐私 · 分别控制保存与调用",
+    "url": "https://www.figma.com/design/NajM4RRtO3M9U0cUfSmvQc/Untitled?node-id=25-2383",
+    "image": "figma/B13.png",
+    "node_id": "25:2383"
+  },
+  {
+    "id": "B14",
+    "name": "B14 首次保存失败 · 保留候选与选择",
+    "url": "https://www.figma.com/design/NajM4RRtO3M9U0cUfSmvQc/Untitled?node-id=25-2466",
+    "image": "figma/B14.png",
+    "node_id": "25:2466"
+  },
+  {
+    "id": "B15",
+    "name": "B15 更新失败 · 旧档案保留，新输入可重试",
+    "url": "https://www.figma.com/design/NajM4RRtO3M9U0cUfSmvQc/Untitled?node-id=25-2552",
+    "image": "figma/B15.png",
+    "node_id": "25:2552"
+  },
+  {
+    "id": "C00",
+    "name": "C00 流程总览 · 两条主线与两组分支",
+    "url": "https://www.figma.com/design/NajM4RRtO3M9U0cUfSmvQc/Untitled?node-id=41-2745",
+    "image": "figma/C00.png",
+    "node_id": "41:2745"
+  },
+  {
+    "id": "C01",
+    "name": "C01 主动问答 · 正在整理相关知识",
+    "url": "https://www.figma.com/design/NajM4RRtO3M9U0cUfSmvQc/Untitled?node-id=41-2829",
+    "image": "figma/C01.png",
+    "node_id": "41:2829"
+  },
+  {
+    "id": "C02",
+    "name": "C02 知识回答 · 区分已知、判断与未知",
+    "url": "https://www.figma.com/design/NajM4RRtO3M9U0cUfSmvQc/Untitled?node-id=41-2915",
+    "image": "figma/C02.png",
+    "node_id": "41:2915"
+  },
+  {
+    "id": "C03",
+    "name": "C03 查看引用 · 知识条目与原始出处",
+    "url": "https://www.figma.com/design/NajM4RRtO3M9U0cUfSmvQc/Untitled?node-id=41-3008",
+    "image": "figma/C03.png",
+    "node_id": "41:3008"
+  },
+  {
+    "id": "C04",
+    "name": "C04 Today / Radar · 浏览相关关注事项",
+    "url": "https://www.figma.com/design/NajM4RRtO3M9U0cUfSmvQc/Untitled?node-id=41-3120",
+    "image": "figma/C04.png",
+    "node_id": "41:3120"
+  },
+  {
+    "id": "C05",
+    "name": "C05 推荐详情 · 内容、原因与条件",
+    "url": "https://www.figma.com/design/NajM4RRtO3M9U0cUfSmvQc/Untitled?node-id=41-3221",
+    "image": "figma/C05.png",
+    "node_id": "41:3221"
+  },
+  {
+    "id": "C06",
+    "name": "C06 展开依据 · 展示相关性与适用边界",
+    "url": "https://www.figma.com/design/NajM4RRtO3M9U0cUfSmvQc/Untitled?node-id=41-3314",
+    "image": "figma/C06.png",
+    "node_id": "41:3314"
+  },
+  {
+    "id": "C07",
+    "name": "C07 从推荐进入对话 · 保留讨论对象",
+    "url": "https://www.figma.com/design/NajM4RRtO3M9U0cUfSmvQc/Untitled?node-id=41-3412",
+    "image": "figma/C07.png",
+    "node_id": "41:3412"
+  },
+  {
+    "id": "C08",
+    "name": "C08 个人条件不足 · 只问必要条件",
+    "url": "https://www.figma.com/design/NajM4RRtO3M9U0cUfSmvQc/Untitled?node-id=41-3496",
+    "image": "figma/C08.png",
+    "node_id": "41:3496"
+  },
+  {
+    "id": "C09",
+    "name": "C09 补充后回应 · 当前条件与知识范围匹配",
+    "url": "https://www.figma.com/design/NajM4RRtO3M9U0cUfSmvQc/Untitled?node-id=41-3578",
+    "image": "figma/C09.png",
+    "node_id": "41:3578"
+  },
+  {
+    "id": "C10",
+    "name": "C10 Radar 无个人信息 · 不伪造个性化推荐",
+    "url": "https://www.figma.com/design/NajM4RRtO3M9U0cUfSmvQc/Untitled?node-id=41-3668",
+    "image": "figma/C10.png",
+    "node_id": "41:3668"
+  },
+  {
+    "id": "C11",
+    "name": "C11 有情境但无合适推荐 · 解释当前结果",
+    "url": "https://www.figma.com/design/NajM4RRtO3M9U0cUfSmvQc/Untitled?node-id=41-3744",
+    "image": "figma/C11.png",
+    "node_id": "41:3744"
+  },
+  {
+    "id": "C12",
+    "name": "C12 知识不足或能力边界 · 明确不知道",
+    "url": "https://www.figma.com/design/NajM4RRtO3M9U0cUfSmvQc/Untitled?node-id=41-3818",
+    "image": "figma/C12.png",
+    "node_id": "41:3818"
+  },
+  {
+    "id": "C13",
+    "name": "C13 个人依据不准 · 纠正后重新判断",
+    "url": "https://www.figma.com/design/NajM4RRtO3M9U0cUfSmvQc/Untitled?node-id=41-3897",
+    "image": "figma/C13.png",
+    "node_id": "41:3897"
+  },
+  {
+    "id": "C14",
+    "name": "C14 推荐更新中 · 原结果标记待更新",
+    "url": "https://www.figma.com/design/NajM4RRtO3M9U0cUfSmvQc/Untitled?node-id=41-4005",
+    "image": "figma/C14.png",
+    "node_id": "41:4005"
+  },
+  {
+    "id": "C15",
+    "name": "C15 推荐更新失败 · 保留上次结果并重试",
+    "url": "https://www.figma.com/design/NajM4RRtO3M9U0cUfSmvQc/Untitled?node-id=41-4104",
+    "image": "figma/C15.png",
+    "node_id": "41:4104"
+  },
+  {
+    "id": "C16",
+    "name": "C16 原始来源暂不可读 · 不伪造核验结果",
+    "url": "https://www.figma.com/design/NajM4RRtO3M9U0cUfSmvQc/Untitled?node-id=41-4203",
+    "image": "figma/C16.png",
+    "node_id": "41:4203"
+  },
+  {
+    "id": "D00",
+    "name": "D00 流程总览 · 关注、事实和联动分开",
+    "url": "https://www.figma.com/design/NajM4RRtO3M9U0cUfSmvQc/Untitled?node-id=41-4328",
+    "image": "figma/D00.png",
+    "node_id": "41:4328"
+  },
+  {
+    "id": "D01",
+    "name": "D01 选择关注反馈 · 明确三种含义",
+    "url": "https://www.figma.com/design/NajM4RRtO3M9U0cUfSmvQc/Untitled?node-id=41-4405",
+    "image": "figma/D01.png",
+    "node_id": "41:4405"
+  },
+  {
+    "id": "D02",
+    "name": "D02 感兴趣成功 · 同一事项保留关注状态",
+    "url": "https://www.figma.com/design/NajM4RRtO3M9U0cUfSmvQc/Untitled?node-id=41-4500",
+    "image": "figma/D02.png",
+    "node_id": "41:4500"
+  },
+  {
+    "id": "D03",
+    "name": "D03 忽略建议 · 说明影响后移出列表",
+    "url": "https://www.figma.com/design/NajM4RRtO3M9U0cUfSmvQc/Untitled?node-id=41-4596",
+    "image": "figma/D03.png",
+    "node_id": "41:4596"
+  },
+  {
+    "id": "D04",
+    "name": "D04 暂不关注成功 · 暂时移出当前列表",
+    "url": "https://www.figma.com/design/NajM4RRtO3M9U0cUfSmvQc/Untitled?node-id=41-4699",
+    "image": "figma/D04.png",
+    "node_id": "41:4699"
+  },
+  {
+    "id": "D05",
+    "name": "D05 纠正个人依据 · 先确认更正范围",
+    "url": "https://www.figma.com/design/NajM4RRtO3M9U0cUfSmvQc/Untitled?node-id=41-4774",
+    "image": "figma/D05.png",
+    "node_id": "41:4774"
+  },
+  {
+    "id": "D06",
+    "name": "D06 仅本次纠正 · 更新当前判断",
+    "url": "https://www.figma.com/design/NajM4RRtO3M9U0cUfSmvQc/Untitled?node-id=41-4884",
+    "image": "figma/D06.png",
+    "node_id": "41:4884"
+  },
+  {
+    "id": "D07",
+    "name": "D07 确认长期更新 · 对照原值和新值",
+    "url": "https://www.figma.com/design/NajM4RRtO3M9U0cUfSmvQc/Untitled?node-id=41-4973",
+    "image": "figma/D07.png",
+    "node_id": "41:4973"
+  },
+  {
+    "id": "D08",
+    "name": "D08 记忆更新成功 · 推荐仍在重新判断",
+    "url": "https://www.figma.com/design/NajM4RRtO3M9U0cUfSmvQc/Untitled?node-id=41-5081",
+    "image": "figma/D08.png",
+    "node_id": "41:5081"
+  },
+  {
+    "id": "D09",
+    "name": "D09 更新后仍相关 · 新依据保留原关注状态",
+    "url": "https://www.figma.com/design/NajM4RRtO3M9U0cUfSmvQc/Untitled?node-id=41-5171",
+    "image": "figma/D09.png",
+    "node_id": "41:5171"
+  },
+  {
+    "id": "D10",
+    "name": "D10 情境取消分支 · 没有当前适合事项",
+    "url": "https://www.figma.com/design/NajM4RRtO3M9U0cUfSmvQc/Untitled?node-id=41-5266",
+    "image": "figma/D10.png",
+    "node_id": "41:5266"
+  },
+  {
+    "id": "D11",
+    "name": "D11 建议已全部移出 · 说明关注反馈结果",
+    "url": "https://www.figma.com/design/NajM4RRtO3M9U0cUfSmvQc/Untitled?node-id=41-5343",
+    "image": "figma/D11.png",
+    "node_id": "41:5343"
+  },
+  {
+    "id": "D12",
+    "name": "D12 反馈明确失败 · 保留原状态",
+    "url": "https://www.figma.com/design/NajM4RRtO3M9U0cUfSmvQc/Untitled?node-id=41-5417",
+    "image": "figma/D12.png",
+    "node_id": "41:5417"
+  },
+  {
+    "id": "D13",
+    "name": "D13 反馈结果未知 · 先确认服务端状态",
+    "url": "https://www.figma.com/design/NajM4RRtO3M9U0cUfSmvQc/Untitled?node-id=41-5511",
+    "image": "figma/D13.png",
+    "node_id": "41:5511"
+  },
+  {
+    "id": "D14",
+    "name": "D14 个人记忆更新失败 · 新更正仍可本次使用",
+    "url": "https://www.figma.com/design/NajM4RRtO3M9U0cUfSmvQc/Untitled?node-id=41-5596",
+    "image": "figma/D14.png",
+    "node_id": "41:5596"
+  },
+  {
+    "id": "D15",
+    "name": "D15 推荐更新失败 · 保存成功的结果保留",
+    "url": "https://www.figma.com/design/NajM4RRtO3M9U0cUfSmvQc/Untitled?node-id=41-5699",
+    "image": "figma/D15.png",
+    "node_id": "41:5699"
+  }
+]
