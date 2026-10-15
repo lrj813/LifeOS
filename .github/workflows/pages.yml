@@ -1,4 +1,4 @@
-name: Static team preview
+name: LifeOS current prototype preview
 on:
   push:
     branches: [main]
