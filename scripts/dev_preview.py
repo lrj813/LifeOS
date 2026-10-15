@@ -14,7 +14,7 @@ class PreviewHandler(SimpleHTTPRequestHandler):
 
     @classmethod
     def rebuild_if_changed(cls):
-        sources = sorted((ROOT / 'frontend').glob('*')) + [ROOT / 'preview/adapter.js', ROOT / 'data/guide.json']
+        sources = sorted((ROOT / 'frontend').rglob('*')) + sorted((ROOT / 'preview').glob('*.js')) + [ROOT / 'data/guide.json']
         signature = tuple((str(path), path.stat().st_mtime_ns, path.stat().st_size) for path in sources if path.is_file())
         with cls.build_lock:
             if signature != cls.source_signature:

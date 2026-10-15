@@ -1,0 +1,116 @@
+{
+  "date": "2026-10-14",
+  "measurements": [
+    {
+      "page": "今天",
+      "overflow": false,
+      "scrollWidth": 305,
+      "width": 320
+    },
+    {
+      "page": "Agent",
+      "overflow": false,
+      "scrollWidth": 305,
+      "width": 320
+    },
+    {
+      "page": "我的生活",
+      "overflow": false,
+      "scrollWidth": 305,
+      "width": 320
+    },
+    {
+      "page": "设置",
+      "overflow": false,
+      "scrollWidth": 305,
+      "width": 320
+    },
+    {
+      "page": "今天",
+      "overflow": false,
+      "scrollWidth": 375,
+      "width": 390
+    },
+    {
+      "page": "Agent",
+      "overflow": false,
+      "scrollWidth": 375,
+      "width": 390
+    },
+    {
+      "page": "我的生活",
+      "overflow": false,
+      "scrollWidth": 375,
+      "width": 390
+    },
+    {
+      "page": "设置",
+      "overflow": false,
+      "scrollWidth": 375,
+      "width": 390
+    },
+    {
+      "page": "今天",
+      "overflow": false,
+      "scrollWidth": 745,
+      "width": 760
+    },
+    {
+      "page": "Agent",
+      "overflow": false,
+      "scrollWidth": 745,
+      "width": 760
+    },
+    {
+      "page": "我的生活",
+      "overflow": false,
+      "scrollWidth": 745,
+      "width": 760
+    },
+    {
+      "page": "设置",
+      "overflow": false,
+      "scrollWidth": 745,
+      "width": 760
+    },
+    {
+      "page": "今天",
+      "overflow": false,
+      "scrollWidth": 1425,
+      "width": 1440
+    },
+    {
+      "page": "Agent",
+      "overflow": false,
+      "scrollWidth": 1425,
+      "width": 1440
+    },
+    {
+      "page": "我的生活",
+      "overflow": false,
+      "scrollWidth": 1425,
+      "width": 1440
+    },
+    {
+      "page": "设置",
+      "overflow": false,
+      "scrollWidth": 1425,
+      "width": 1440
+    }
+  ],
+  "keyboard": {
+    "mobileEnter": "newline",
+    "desktopEnter": "submit",
+    "ime": "implemented, not independently tested"
+  },
+  "focus": {
+    "trap": "passed after fix",
+    "escape": "restores source button"
+  },
+  "htmlText": {
+    "questionImgCount": 0
+  },
+  "copy": "success",
+  "versions": 2,
+  "offlineFileProtocol": "tool denied file navigation; relative assets checked separately"
+}

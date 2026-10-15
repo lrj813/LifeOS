@@ -1,0 +1,44 @@
+✔ HTML gateway failure becomes readable error instead of JSON syntax error (1.984667ms)
+✔ session expiry retains HTTP status for clearing private UI (0.321083ms)
+✔ network failures have an actionable message (0.273416ms)
+✔ logout cancellation aborts all in-flight requests and leaves later requests usable (1.181875ms)
+✔ question alone does not create memory; first-person statement automatically saves only explicit facts (11.248833ms)
+✔ retries and regenerate are idempotent; new explicit supplement updates same event (9.012792ms)
+✔ reply completion and memory failure are separate; memory retry does not resubmit the question (6.295708ms)
+✔ recommendation keeps its exact guide when continued; generic cards are available without private memory (4.989458ms)
+✔ not interested hides only recommendation and survives refresh without changing memories (6.363459ms)
+✔ two unknown feedback operations remain independently queryable; duplicate clicks do not create new operations (7.393875ms)
+✔ deleting conversation preserves memory; deleting memory prevents future personalization (8.109792ms)
+✔ history read failure is not treated as deleted history (3.903125ms)
+✔ stop rejects pending generation before committing automatic memory; accounts cannot share memory retry (71.352208ms)
+✔ research intent is not a life plan; regeneration after deletion cannot resurrect memory (8.803375ms)
+✔ necessary clarification does not discard already explicit facts or invent the missing housing condition (4.922583ms)
+✔ answer and only-this candidate never create long-term events; date uses Shanghai anchor and month precision (9.84025ms)
+✔ confirm is idempotent and increments category count exactly once (3.962958ms)
+✔ save failure preserves candidate and does not commit, retry can save (6.426708ms)
+✔ all four save/use combinations obey independent permissions and retain stored records (19.738084ms)
+✔ save denied while permission off, existing events still manageable (4.001625ms)
+✔ updating preserves event identity, unknown budget, and one event; old version is rejected (4.488417ms)
+✔ update failure keeps committed facts and idempotent retry does not increment twice (4.924708ms)
+✔ recommendation failure cannot roll back a successful memory update; interest identity survives refresh (12.36325ms)
+✔ ignore/paused feedback never cancel a plan or delete event, and do not reappear on refresh (12.243291ms)
+✔ unknown operation is queried by same ID and committed once; unknown failure retains original interest (14.732458ms)
+✔ deleted events invalidate recommendations and stale feedback, other account remains intact (6.397ms)
+✔ temporary correction does not mutate long-term event; cancellation removes recommendations only after explicit update (7.456708ms)
+✔ account switch, setting revision, and cancellation reject in-flight responses before any late commit (1.787041ms)
+✔ wrong owner may not query another account operation or update their event (5.014958ms)
+✔ real provider sends only existing API paths, preserves original contract, and gates missing capabilities (4.94325ms)
+✔ three homepage scenarios independently preserve topics and confirmed context (6.764417ms)
+✔ stale recommendation actually preserves the previous basis until recompute (9.754ms)
+✔ candidate extraction failure and knowledge boundary do not offer a saveable fabricated event (4.923417ms)
+✔ read failures and deletion failure leave underlying data intact (7.189667ms)
+✔ conflict simulation allows an explicit second confirmation using the returned version (5.057667ms)
+✔ production HTML never loads a mock provider or fixture; mock never intercepts fetch or persists input (0.96475ms)
+ℹ tests 36
+ℹ suites 0
+ℹ pass 36
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 213.772667

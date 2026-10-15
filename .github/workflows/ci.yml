@@ -30,9 +30,11 @@ jobs:
           node --check frontend/app.js
           node --check frontend/api.js
           node --check frontend/ui.js
+          node --check frontend/services.js
           node --check preview/adapter.js
+          node --check preview/mock-service.js
       - name: Check frontend error and cancellation regressions
-        run: node --test tests/frontend_api.test.cjs
+        run: node --test tests/*.test.cjs
       - name: Build isolated static preview
         run: python scripts/build_preview.py
       - name: Validate Docker Compose with a synthetic secret

@@ -1,0 +1,33 @@
+✔ HTML gateway failure becomes readable error instead of JSON syntax error (1.800875ms)
+✔ session expiry retains HTTP status for clearing private UI (0.314917ms)
+✔ network failures have an actionable message (0.255709ms)
+✔ logout cancellation aborts all in-flight requests and leaves later requests usable (0.940583ms)
+✔ answer and only-this candidate never create long-term events; date uses Shanghai anchor and month precision (7.244ms)
+✔ confirm is idempotent and increments category count exactly once (2.741291ms)
+✔ save failure preserves candidate and does not commit, retry can save (6.361292ms)
+✔ all four save/use combinations obey independent permissions and retain stored records (19.803167ms)
+✔ save denied while permission off, existing events still manageable (3.927416ms)
+✔ updating preserves event identity, unknown budget, and one event; old version is rejected (5.078833ms)
+✔ update failure keeps committed facts and idempotent retry does not increment twice (4.324375ms)
+✔ recommendation failure cannot roll back a successful memory update; interest identity survives refresh (12.442666ms)
+✔ ignore/paused feedback never cancel a plan or delete event, and do not reappear on refresh (11.079583ms)
+✔ unknown operation is queried by same ID and committed once; unknown failure retains original interest (15.912375ms)
+✔ deleted events invalidate recommendations and stale feedback, other account remains intact (7.423125ms)
+✔ temporary correction does not mutate long-term event; cancellation removes recommendations only after explicit update (7.36275ms)
+✔ account switch, setting revision, and cancellation reject in-flight responses before any late commit (1.765917ms)
+✔ wrong owner may not query another account operation or update their event (5.017625ms)
+✔ real provider sends only existing API paths, preserves original contract, and gates missing capabilities (4.057584ms)
+✔ three homepage scenarios independently preserve topics and confirmed context (6.823583ms)
+✔ stale recommendation actually preserves the previous basis until recompute (9.745541ms)
+✔ candidate extraction failure and knowledge boundary do not offer a saveable fabricated event (3.845875ms)
+✔ read failures and deletion failure leave underlying data intact (6.17ms)
+✔ conflict simulation allows an explicit second confirmation using the returned version (3.770917ms)
+✔ production HTML never loads a mock provider or fixture; mock never intercepts fetch or persists input (0.8365ms)
+ℹ tests 25
+ℹ suites 0
+ℹ pass 25
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 197.085166

@@ -1,69 +1,55 @@
 <!doctype html>
 <html lang="zh-CN">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>苟活 · 问题回访与会话记忆</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>苟活 · LifeOS</title><link rel="stylesheet" href="styles.css"></head>
 <body>
+<svg class="icon-sprite" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><defs>
+<symbol id="i-arch" viewBox="0 0 24 24"><path d="M5 21V10a7 7 0 0 1 14 0v11M9 21V10a3 3 0 0 1 6 0v11M3 21h18"/></symbol>
+<symbol id="i-user" viewBox="0 0 24 24"><circle cx="12" cy="8" r="3.5"/><path d="M5 21v-2a7 7 0 0 1 14 0v2"/></symbol>
+<symbol id="i-sidebar" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="4"/><path d="M9 3v18"/></symbol>
+<symbol id="i-newchat" viewBox="0 0 24 24"><path d="M20 11.5a8 8 0 0 1-8 8H5l-3 2v-7a9 9 0 1 1 18-3Z"/><path d="M8 11h8m-4-4v8"/></symbol>
+<symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 6h16M4 12h12M4 18h8"/></symbol>
+<symbol id="i-up" viewBox="0 0 24 24"><path d="M12 20V4m-6 6 6-6 6 6"/></symbol>
+<symbol id="i-down" viewBox="0 0 24 24"><path d="M12 4v16m-6-6 6 6 6-6"/></symbol>
+<symbol id="i-left" viewBox="0 0 24 24"><path d="M20 12H4m6-6-6 6 6 6"/></symbol>
+<symbol id="i-right" viewBox="0 0 24 24"><path d="M4 12h16m-6-6 6 6-6 6"/></symbol>
+<symbol id="i-diagonal" viewBox="0 0 24 24"><path d="M5 19 19 5M7 5h12v12"/></symbol>
+<symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
+<symbol id="i-more" viewBox="0 0 24 24"><circle cx="5" cy="12" r="1"/><circle cx="12" cy="12" r="1"/><circle cx="19" cy="12" r="1"/></symbol>
+<symbol id="i-close" viewBox="0 0 24 24"><path d="m6 6 12 12M6 18 18 6"/></symbol>
+</defs></svg>
 <a class="skip-link" href="#main-content">跳到主要内容</a>
+<div id="history-hover-zone" aria-hidden="true"></div>
+<aside id="history-panel" class="sidebar" aria-label="对话历史" hidden>
+<div class="section-heading"><a class="brand" href="#/today">LifeOS</a><button id="history-close" aria-label="收起对话历史">收起 <svg class="icon" aria-hidden="true"><use href="#i-left"/></svg></button></div>
+<button id="newchat" class="wide"><svg class="icon" aria-hidden="true"><use href="#i-newchat"/></svg>新对话</button>
+<label for="history-search">搜索对话</label><input id="history-search" type="search" placeholder="搜索对话" maxlength="100">
+<div id="topics"></div><p class="hint" id="history-note"></p>
+</aside>
+<button id="profile-entry" class="avatar" aria-label="个人档案与设置" title="个人档案与设置"><svg class="icon" aria-hidden="true"><use href="#i-user"/></svg></button>
 <main id="main-content" tabindex="-1">
-  <header>
-    <div><h1>苟活 🌱</h1><p class="subtitle">记得你问过什么，也关心后来怎么样。</p></div>
-    <div class="row"><span id="account"></span><button id="logout" hidden>退出登录</button></div>
-  </header>
-  <div class="row environment"><span class="pill">Python 独立版</span><small>体验账户为虚构数据；咨询内容来自固定指南快照。</small></div>
-  <div id="status" role="status" aria-live="polite" aria-atomic="true"></div>
-  <noscript><p class="notice">请开启浏览器 JavaScript 后使用页面。</p></noscript>
-  <section id="login">
-    <h2>登录</h2>
-    <form id="loginform">
-      <label for="username">账号</label><input id="username" autocomplete="username" placeholder="alice 或 bob" required maxlength="100">
-      <label for="password">密码</label><input type="password" id="password" autocomplete="current-password" required>
-      <div class="row"><button class="primary" id="login-submit" type="submit">登录</button></div>
-    </form>
-  </section>
-  <div id="workspace" hidden>
-    <section aria-labelledby="home-title">
-      <div class="section-heading"><h2 id="home-title">上次的问题，后来怎么样了？</h2><button id="refresh">刷新回访</button></div>
-      <p class="hint">先跟进问题进展，你需要时再继续问指南。</p>
-      <div id="home"><p class="empty">还没有需要回访的问题，先聊一个困扰吧。</p></div>
-    </section>
-    <div class="grid">
-      <section aria-labelledby="chat-title">
-        <div class="section-heading"><h2 id="chat-title">说说你的困扰</h2><button id="newchat">开始新会话</button></div>
-        <p class="hint">本页保留当前会话的问答；刷新后不保留逐字聊天。开启记忆时，会保存会话摘要。</p>
-        <div id="chat" role="log" aria-label="当前会话" aria-live="polite" aria-relevant="additions"></div>
-        <form id="askform">
-          <label for="query">你想解决什么？</label>
-          <textarea id="query" placeholder="例如：工作时老被手机通知打断，怎么改善？" rows="4" maxlength="2000" aria-describedby="query-hint" required></textarea>
-          <div class="row" id="linked-row" hidden><span id="linked" class="pill"></span><button id="unlink" type="button">取消关联</button></div>
-          <div class="row composer-actions"><small id="query-hint">可以补充情况继续聊。Ctrl / ⌘ + Enter 提交，Enter 换行。</small><button class="primary" id="ask" type="submit">提问</button></div>
-        </form>
-      </section>
-      <section aria-labelledby="memory-title">
-        <h2 id="memory-title">长期会话记忆</h2>
-        <label class="row switch"><input id="enabled" type="checkbox">自动保存每轮会话摘要</label>
-        <p class="hint">模型记录你明确表达的状态、问题和咨询过的指南，无需每次手动保存。摘要可以纠正或删除；关闭后停止读写。</p>
-        <div id="memories"></div>
-        <form id="editor" hidden>
-          <h3 id="editor-title">纠正这条摘要</h3>
-          <label for="memory">会话摘要</label><textarea id="memory" required maxlength="800"></textarea>
-          <label for="problem">问题主题</label><input id="problem" maxlength="160">
-          <label for="user_state">用户状态</label><input id="user_state" maxlength="400">
-          <label for="problem_status">问题进展</label><select id="problem_status"><option value="unresolved">尚未解决</option><option value="resolved">已解决</option><option value="unknown">未说明</option></select>
-          <div class="row"><button class="primary" id="save" type="submit">保存纠正</button><button id="cancel" type="button">取消</button></div>
-        </form>
-        <div class="row"><button class="danger" id="clear">清空记忆</button><button id="reload-memories">刷新记忆</button></div>
-        <small>同一问题的更新会保留旧摘要，首页仅跟进最新且未解决的记录。变更记忆会重置当前会话上下文。</small>
-      </section>
-    </div>
-    <footer><small>指南：HowToLiveBetter · CC BY 4.0 · 2026-10-12 固定快照，687 条。首页只回访问题，指南正文在你提问后查询。</small></footer>
-  </div>
+<header class="topbar"><div class="chat-toolbar"><button id="history-toggle" aria-expanded="false" aria-pressed="false" aria-controls="history-panel" aria-label="固定对话历史" title="固定对话历史"><svg class="icon" aria-hidden="true"><use href="#i-sidebar"/></svg></button><button id="header-newchat" aria-label="新对话" title="新对话"><svg class="icon" aria-hidden="true"><use href="#i-newchat"/></svg></button><h1 id="agent-title">新对话</h1><button id="conversation-menu" aria-label="当前对话操作"><svg class="icon" aria-hidden="true"><use href="#i-more"/></svg></button></div><a class="brand gallery-brand" href="#/today"><svg class="icon" aria-hidden="true"><use href="#i-arch"/></svg><span>LifeOS</span></a><div class="header-meta"><time id="local-date"></time><span id="environment" class="pill">真实接口模式</span></div></header>
+<div id="status" role="status" aria-live="polite" aria-atomic="true"></div>
+
+<section id="login" hidden><h2>登录后开始</h2><p class="hint">真实问答需要组员提供的体验账号。</p><form id="loginform"><label for="username">账号</label><input id="username" autocomplete="username" required maxlength="100"><label for="password">密码</label><input id="password" type="password" autocomplete="current-password" required><button id="login-submit" type="submit" class="primary">登录</button></form></section>
+<section id="view-today" class="view home-view" aria-labelledby="today-title">
+<div class="home-heading"><h1 id="today-title">值得留意的几个方向</h1></div>
+<div id="home" aria-label="推荐内容"></div><div id="pending-feedback"></div>
+<div class="gallery-navigation" aria-label="情境卡片切换"><span id="gallery-instruction" class="gallery-instruction" aria-hidden="true">拖动或滚轮探索</span><button id="cards-prev" class="icon-button" aria-label="上一张推荐"><svg class="icon" aria-hidden="true"><use href="#i-left"/></svg></button><span id="gallery-count" role="status" aria-live="polite"></span><button id="cards-next" class="icon-button" aria-label="下一张推荐"><svg class="icon" aria-hidden="true"><use href="#i-right"/></svg></button><button id="refresh-home" class="text-button" data-lock="true">刷新推荐</button></div>
+<div class="home-entry">
+<form id="todayform" class="home-composer"><label class="sr-only" for="today-query">说说你正在经历的事</label><textarea id="today-query" rows="1" maxlength="2000" placeholder="此刻，有什么想聊的？"></textarea><button id="today-send" class="primary icon-button" type="submit" aria-label="发送并开始对话"><svg class="icon" aria-hidden="true"><use href="#i-up"/></svg></button></form>
+<button id="continue-latest" class="text-button" hidden><span>查看历史对话</span><svg class="icon" aria-hidden="true"><use href="#i-right"/></svg></button>
+</div>
+</section>
+<section id="view-agent" class="view chat-view" hidden aria-labelledby="agent-title">
+<div class="section-heading chat-heading"><a href="#/today"><svg class="icon" aria-hidden="true"><use href="#i-left"/></svg>回到首页</a></div>
+<p id="chat-policy" class="hint"></p><div id="chat" role="log" aria-label="当前会话" aria-live="off" tabindex="0"></div>
+<form id="askform" class="input-card"><label class="sr-only" for="query">继续提问</label><textarea id="query" rows="2" maxlength="2000" placeholder="说说你正在经历的事…" aria-describedby="query-hint"></textarea><div class="row composer-actions"><small id="query-hint">Enter 发送，Shift + Enter 换行</small><button id="stop" type="button" hidden>停止</button><button id="ask" class="primary" type="submit" aria-label="发送" title="发送"><svg class="icon" aria-hidden="true"><use href="#i-up"/></svg></button></div></form>
+</section>
+<footer><span>HowToLiveBetter · CC BY 4.0</span><div id="preview-controls"></div></footer>
 </main>
-<script src="api.js"></script>
-<script src="ui.js"></script>
+<dialog id="modal" aria-labelledby="modal-title"><form id="modal-form"><div class="section-heading"><h2 id="modal-title"></h2><button id="modal-close" type="button" aria-label="关闭对话框"><svg class="icon" aria-hidden="true"><use href="#i-close"/></svg></button></div><div id="modal-body"></div><p id="modal-error" role="alert"></p><div id="modal-actions" class="row"></div></form></dialog>
+<noscript>请开启 JavaScript 后使用。</noscript>
+<script src="api.js"></script><script src="ui.js"></script><script src="services.js"></script>
+<!-- Preview modules are injected only by scripts/build_preview.py. -->
 <script src="app.js"></script>
-</body>
-</html>
+</body></html>

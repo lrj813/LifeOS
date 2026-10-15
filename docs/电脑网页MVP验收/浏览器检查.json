@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-14",
+  "mode": "desktop-browser memory-only mock",
+  "desktop_layout": [
+    {
+      "width": 1280,
+      "height": 900,
+      "documentOverflow": false,
+      "chatOverflow": false
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "documentOverflow": false,
+      "chatOverflow": false
+    }
+  ],
+  "browser_passed": [
+    "homepage and avatar profile",
+    "question-only does not increase existing memory count",
+    "explicit move statement updates same event, count remains one",
+    "history search finds one matching conversation",
+    "conversation deletion retains memory and continue opens new conversation",
+    "next draft and input focus retained through 3-second reply",
+    "horizontal card next/previous changes scroll position",
+    "unknown feedback only removes recommendation after same operation query",
+    "restore starts with summary and zero old message turns"
+  ],
+  "automatic_tests": 36,
+  "screenshots": "Page.captureScreenshot timed out twice; no new screenshots",
+  "not_tested": [
+    "real model integration",
+    "offline file-protocol opening",
+    "mobile UI",
+    "native Chinese IME composition",
+    "real backend new features"
+  ],
+  "backend_prompts_data_unchanged": true
+}

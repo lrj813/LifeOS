@@ -1,0 +1,94 @@
+{
+  "viewports": [
+    {
+      "view": "今天",
+      "overflow": false,
+      "width": 320
+    },
+    {
+      "view": "Agent",
+      "overflow": false,
+      "width": 320
+    },
+    {
+      "view": "我的生活",
+      "overflow": false,
+      "width": 320
+    },
+    {
+      "view": "设置",
+      "overflow": false,
+      "width": 320
+    },
+    {
+      "view": "今天",
+      "overflow": false,
+      "width": 390
+    },
+    {
+      "view": "Agent",
+      "overflow": false,
+      "width": 390
+    },
+    {
+      "view": "我的生活",
+      "overflow": false,
+      "width": 390
+    },
+    {
+      "view": "设置",
+      "overflow": false,
+      "width": 390
+    },
+    {
+      "view": "今天",
+      "overflow": false,
+      "width": 760
+    },
+    {
+      "view": "Agent",
+      "overflow": false,
+      "width": 760
+    },
+    {
+      "view": "我的生活",
+      "overflow": false,
+      "width": 760
+    },
+    {
+      "view": "设置",
+      "overflow": false,
+      "width": 760
+    },
+    {
+      "view": "今天",
+      "overflow": false,
+      "width": 1440
+    },
+    {
+      "view": "Agent",
+      "overflow": false,
+      "width": 1440
+    },
+    {
+      "view": "我的生活",
+      "overflow": false,
+      "width": 1440
+    },
+    {
+      "view": "设置",
+      "overflow": false,
+      "width": 1440
+    }
+  ],
+  "colors": {
+    "body": "rgb(255, 255, 255)",
+    "primary": "rgb(23, 23, 23)",
+    "selectedNavigation": "rgb(237, 237, 237)"
+  },
+  "dialog320": {
+    "overflow": false,
+    "dialogWidth": 269
+  },
+  "scope": "CSS and navigation SVG only; interaction JS unchanged"
+}
