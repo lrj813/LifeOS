@@ -12,11 +12,11 @@
 
 | 方式 | 入口 | 能体验什么 |
 |---|---|---|
-| 在线静态预览 | [GitHub Pages](https://shuaishuaisylas.github.io/LifeOS/) | 虚构账号、固定指南示例、浏览器模拟记忆与回访交互 |
+| 在线静态预览 | [GitHub Pages](https://lrj813.github.io/LifeOS/) | 虚构账号、固定指南示例、浏览器模拟记忆与回访交互 |
 | 完整应用 | 在自己电脑启动 Docker，访问 `http://localhost:8780` | 真实模型问答、自动模型摘要、SQLite 长期记忆与回访 |
 | 架构与流程 | [团队讲解材料](docs/团队讲解/苟活项目架构与流程说明.md) | 整体架构、四张图、十分钟讲解顺序和常见问题 |
 
-在线预览不连接模型或 Python 后端，记忆仅保存在当前浏览器，不用于验证模型质量或后端权限。Pages 发布状态见 [Actions](https://github.com/shuaishuaisylas/LifeOS/actions)。完整联调见 [团队调试与预览](docs/团队调试与预览.md)。
+在线预览不连接模型或 Python 后端，记忆仅保存在当前浏览器，不用于验证模型质量或后端权限。Pages 发布状态见 [Actions](https://github.com/lrj813/LifeOS/actions)。完整联调见 [团队调试与预览](docs/团队调试与预览.md)。
 
 ## 仅开发前端页面
 
@@ -27,7 +27,7 @@
 先克隆仓库，然后在项目目录创建自己的模型配置：
 
 ```sh
-git clone https://github.com/shuaishuaisylas/LifeOS.git
+git clone https://github.com/lrj813/LifeOS.git
 cd LifeOS
 cp config/model-api.example.json api.json
 cp deploy/compose.env.example .env.compose
